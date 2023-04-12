@@ -104,9 +104,9 @@ If you want to quit, you can press the "q" key to quit.
 ![p2](https://user-images.githubusercontent.com/48171500/231575289-d0ee4ead-8fdc-40ed-9caa-8830a11837ac.jpg)
 
 ## Video
-<img src="https://user-images.githubusercontent.com/48171500/231588071-181ff972-461a-44b7-ac8c-5016bd58b31c.gif" width="500"/><img src="https://user-images.githubusercontent.com/48171500/231588153-e857b3e0-b247-4d6e-bc0e-c1cfe1a83d7b.gif" width="500"/>
+<img src="https://user-images.githubusercontent.com/48171500/231588071-181ff972-461a-44b7-ac8c-5016bd58b31c.gif" width="400"/><img src="https://user-images.githubusercontent.com/48171500/231588153-e857b3e0-b247-4d6e-bc0e-c1cfe1a83d7b.gif" width="400"/>
 
-<img src="https://user-images.githubusercontent.com/48171500/231588176-42052910-394f-4997-a957-6b26fdc87a35.gif" width="500"/><img src="https://user-images.githubusercontent.com/48171500/231588191-515171ff-a087-4cde-854c-c513cf2fbcee.gif" width="500"/>
+<img src="https://user-images.githubusercontent.com/48171500/231588176-42052910-394f-4997-a957-6b26fdc87a35.gif" width="400"/><img src="https://user-images.githubusercontent.com/48171500/231588191-515171ff-a087-4cde-854c-c513cf2fbcee.gif" width="400"/>
 
 
 
