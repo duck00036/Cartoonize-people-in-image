@@ -115,4 +115,4 @@ If you want to quit, you can press the "q" key to quit.
 
 [PyTorch deeplabv3 documentation](https://pytorch.org/hub/pytorch_vision_deeplabv3_resnet101/)
 
-[Tensorflow implementation for CVPR2020 paper “Learning to Cartoonize Using White-box Cartoon Representations”.](https://github.com/SystemErrorWang/White-box-Cartoonization)
+[Tensorflow implementation for CVPR2020 paper “Learning to Cartoonize Using White-box Cartoon Representations”](https://github.com/SystemErrorWang/White-box-Cartoonization)
