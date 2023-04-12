@@ -76,6 +76,8 @@ docker run --rm -v <input path>:/trans/input_image -v <output path>:/trans/outpu
     
 The output photos will be saved in your ouput folder.
 
+Note: The functions in docker can only cartoonize photos, not videos
+
 ## with jupyter notebook
 If you want to understand the implementation process or want to make adjustments to the code, [this](trans_onnx.ipynb) notebook may help you.
 
