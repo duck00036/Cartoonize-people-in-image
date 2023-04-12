@@ -74,7 +74,7 @@ docker run --rm -v <input path>:/trans/input_image -v <output path>:/trans/outpu
 * **input path** is your own input folder's path
 * **output path** is your own output folder's path
     
-The output photos will be saved in your ouput folder.
+The output photos will be saved in your output folder.
 
 Note: The functions in docker can only cartoonize photos, not videos
 
