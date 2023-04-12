@@ -51,10 +51,12 @@ If you want to use deeplabv3 as the instance segmentation model, run the script:
 ```
 python trans_deep.py
 ```
-If you want to use mask-rcnn as the instance segmentation model, run the script (this might take longer time):
+If you want to use mask-rcnn as the instance segmentation model, run the script (this may take longer):
 ```
 python trans_mask.py
 ```
+(Since the model is exported from PyTorch to onnx, there may be some warning messages about unused initializers, but it does not affect the operation)
+
 The output photos will be saved in the "**output_image**" folder.
 ## with Docker
 Create two folders as an input folder and an output folder, and put the photos to be cartoonized into the input folder.
@@ -63,14 +65,39 @@ If you want to use deeplabv3 as the instance segmentation model, run the script:
 ```
 docker run --rm -v <input path>:/trans/input_image -v <output path>:/trans/output_image cartoon:cpu python3 trans_deep.py
 ```
-If you want to use mask-rcnn as the instance segmentation model, run the script (this might take longer time):
+If you want to use mask-rcnn as the instance segmentation model, run the script (this may take longer):
 ```
 docker run --rm -v <input path>:/trans/input_image -v <output path>:/trans/output_image cartoon:cpu python3 trans_mask.py
 ```
+(Since the model is exported from PyTorch to onnx, there may be some warning messages about unused initializers, but it does not affect the operation)
+
 * **input path** is your own input folder's path
 * **output path** is your own output folder's path
     
 The output photos will be saved in your ouput folder.
+
 ## with jupyter notebook
 If you want to understand the implementation process or want to make adjustments to the code, [this](trans_onnx.ipynb) notebook may help you.
+
 ## with GPU
+### cartoonize videos
+If you have an onnxruntime-gpu environment, with matched CUDA and cudaa, you can also cartoonize the videos !
+
+(CPU is also available, but it will be extremely slow)
+
+Put the videos you want to cartoonize into the "input_video" folder and make sure you have the moviepy library installed.
+
+Run the script (Considering efficiency, we use deeplabv3 model for instance segmentation):
+```
+python trans_video.py
+```
+### cartoonize yourself
+And if you wanna try a self cartoonize cam, you can run this script:
+```
+python selfcam.py
+```
+If you want to quit, you can press the "q" key to quit.
+
+# Demo
+
+# reference
