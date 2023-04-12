@@ -1,5 +1,5 @@
 # Cartoonize people in image
-This repository contains code for converting images of people into cartoon-like illustrations using an instance segmentation model and a cartoonization model. The instance segmentation model is responsible for identifying and separating the people in the input image from the background. This project offers two options for the instance segmentation model: a Mask R-CNN model trained in [my previous work](https://github.com/duck00036/Training-Mask-RCNN-on-custom-dataset-using-pytorch), and a Deeplabv3 model with an ImageNet backbone provided by torchvision.
+This repository contains code for converting images of people into cartoon-like illustrations using an instance segmentation model and a cartoonization model. The instance segmentation model is responsible for identifying and separating the people in the input image from the background. This project offers two options for the instance segmentation model: a Mask R-CNN model trained in [my previous work](https://github.com/duck00036/Training-Mask-RCNN-on-custom-dataset-using-pytorch), and a Deeplabv3 model with an ImageNet backbone provided by PyTorch.
 
 The cartoonization model applies a White-box-Cartoonization technique, which stylizes the image in a way that resembles a cartoon drawing,  the implementation origins from [the paper by Xinrui Wang](https://github.com/SystemErrorWang/White-box-Cartoonization). To ensure efficient deployment, this project exports all models to the ONNX format and runs the application on the CPU by default.
 
@@ -99,5 +99,14 @@ python selfcam.py
 If you want to quit, you can press the "q" key to quit.
 
 # Demo
+## Photo
+![p1](https://user-images.githubusercontent.com/48171500/231575267-77ab314e-58a2-47a7-aac3-1ebc0c9e3245.jpg)
+![p2](https://user-images.githubusercontent.com/48171500/231575289-d0ee4ead-8fdc-40ed-9caa-8830a11837ac.jpg)
+
+## Video
+
 
 # reference
+[PyTorch deeplabv3 documentation](https://pytorch.org/hub/pytorch_vision_deeplabv3_resnet101/)
+
+[Tensorflow implementation for CVPR2020 paper “Learning to Cartoonize Using White-box Cartoon Representations”.](https://github.com/SystemErrorWang/White-box-Cartoonization)
