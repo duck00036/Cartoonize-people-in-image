@@ -104,8 +104,9 @@ If you want to quit, you can press the "q" key to quit.
 ![p2](https://user-images.githubusercontent.com/48171500/231575289-d0ee4ead-8fdc-40ed-9caa-8830a11837ac.jpg)
 
 ## Video
-
-
+<img src="https://duck00036-public-images.s3.ap-northeast-1.amazonaws.com/cv3.gif" width="200"/><img src="https://duck00036-public-images.s3.ap-northeast-1.amazonaws.com/cv3.gif" width="200"/>
+![ccc2](https://duck00036-public-images.s3.ap-northeast-1.amazonaws.com/cv3.gif)
+![ccc](https://duck00036-public-images.s3.ap-northeast-1.amazonaws.com/cv2f.gif)
 # reference
 [PyTorch deeplabv3 documentation](https://pytorch.org/hub/pytorch_vision_deeplabv3_resnet101/)
 
